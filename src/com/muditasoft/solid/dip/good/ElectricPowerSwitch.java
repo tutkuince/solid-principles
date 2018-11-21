@@ -1,6 +1,6 @@
 package com.muditasoft.solid.dip.good;
 
-public class ElectricPowerSwitch {
+public class ElectricPowerSwitch implements Switch {
     public Switchable client;
     public boolean on;
 
